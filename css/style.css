@@ -2,7 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700);
 @font-face {
   font-family: "skate";
-  src: url("../fonts/skate.woff2") format("woff2"), url("../fonts/skate.woff") format("woff");
+  src: url("../fonts/skate.woff2") format("woff2"),
+    url("../fonts/skate.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -20,7 +21,9 @@
 }
 
 /* Links */
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   text-decoration: none;
 }
 
@@ -29,16 +32,28 @@ a:hover {
 }
 
 /* Common */
-aside, nav, footer, header, section, main {
+aside,
+nav,
+footer,
+header,
+section,
+main {
   display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-size: inherit;
   font-weight: inherit;
 }
 
-ul, ul li {
+ul,
+ul li {
   list-style: none;
 }
 
@@ -46,7 +61,8 @@ img {
   vertical-align: top;
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   height: auto;
 }
@@ -56,7 +72,10 @@ address {
 }
 
 /* Form */
-input, textarea, button, select {
+input,
+textarea,
+button,
+select {
   font-family: inherit;
   font-size: inherit;
   color: inherit;
@@ -67,7 +86,8 @@ input::-ms-clear {
   display: none;
 }
 
-button, input[type=submit] {
+button,
+input[type="submit"] {
   display: inline-block;
   box-shadow: none;
   background-color: transparent;
@@ -75,8 +95,10 @@ button, input[type=submit] {
   cursor: pointer;
 }
 
-input:focus, input:active,
-button:focus, button:active {
+input:focus,
+input:active,
+button:focus,
+button:active {
   outline: none;
 }
 
@@ -103,7 +125,8 @@ body {
   height: 100vh;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
@@ -226,6 +249,8 @@ html, body {
   align-items: center;
 }
 .industry__link img {
+  width: 24px;
+  height: 24px;
   margin: 0px 20px 0px 0px;
 }
 
@@ -255,7 +280,12 @@ html, body {
   justify-content: center;
   align-items: center;
   color: #0d0f0d;
-  background: linear-gradient(270deg, rgb(0, 255, 8) 0%, rgb(228, 255, 3) 50%, rgb(0, 255, 8) 100%);
+  background: linear-gradient(
+    270deg,
+    rgb(0, 255, 8) 0%,
+    rgb(228, 255, 3) 50%,
+    rgb(0, 255, 8) 100%
+  );
   border-radius: 42px;
   padding: 8px 60px;
   text-transform: uppercase;
@@ -332,7 +362,7 @@ html, body {
   max-width: 394px;
   width: 100%;
   text-align: center;
-  background-color: #F9F9EA;
+  background-color: #f9f9ea;
   padding: 24px;
   min-height: 230px;
   border-radius: 16px;
@@ -350,11 +380,11 @@ html, body {
 .btn {
   min-height: 52px;
   border-radius: 8px;
-  border: 1px solid #CDD1C3;
+  border: 1px solid #cdd1c3;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1C2F29;
+  color: #1c2f29;
   transition: all 0.3s ease 0s;
   cursor: pointer;
   font-weight: 500;
@@ -412,7 +442,7 @@ html, body {
   align-items: center;
   width: 120px;
   margin: 0px auto;
-  background-color: #70C04C;
+  background-color: #70c04c;
   color: #fff;
   border-bottom: 4px solid #548f38;
   padding: 5px;
